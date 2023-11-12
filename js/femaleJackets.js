@@ -18,7 +18,7 @@ femalejackets.innerHTML += `<div class="jackets1">
 <img src="${jacket[i].image}">
 
 <p>${title}</p> 
-<p>${jacket[i].price}</</p>
+<p>${jacket[i].price}$</p>
 <a href="specific.html?id=${jacket[i].id}" class="buyjacket">view more</a>
 </div>`
 }
