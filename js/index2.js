@@ -55,7 +55,7 @@ createContent();
 
 function showContent(){
     hidden.classList.remove("hidden");
-    console.log("yo");
+    
 }
 
 function closeContent(){
@@ -71,7 +71,7 @@ function placeContent(add, remove1, remove2, remove3){
     hidden.classList.remove(remove1);
     hidden.classList.remove(remove2);
     hidden.classList.remove(remove3);
-    console.log("hello");
+   
 }
 
 

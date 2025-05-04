@@ -26,6 +26,6 @@ catch(error){
 
 
 export const jacket = await callApi(url);
-export const jacketSpecific = await callApi(newUrl);
+export const jacketSpecific = id ? await callApi(`${url}/${id}`) : null;
 
 

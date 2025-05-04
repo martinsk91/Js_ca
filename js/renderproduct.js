@@ -14,7 +14,7 @@ if(jacketSpecific.gender === "Female"){
 }
 else(gender = "Men")
 
-console.log(gender);
+
 
 function createHtml(Product){
     document.title = `${Product.title}`
